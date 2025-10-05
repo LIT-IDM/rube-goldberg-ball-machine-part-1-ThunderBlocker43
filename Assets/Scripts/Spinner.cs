@@ -7,8 +7,8 @@ public class Spinner : MonoBehaviour {
     public float rotateTime = 1; // Second
     public float waitTime = 2; // Seconds
     public float delay = 0;
-
-    float rotateRate; // Degrees per second
+    public float rotateRate; // Degrees per second
+    
     float timeRemaining = 0;
     float angleAnchor;
     float anglesTurned = 0;
